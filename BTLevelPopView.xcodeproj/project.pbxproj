@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85965F729060FBDDA0780394 /* Pods_BTLevelPopView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BC26EE6964B17908FC6703 /* Pods_BTLevelPopView.framework */; };
+		F79381FD27435CF200C6B41B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F79381FC27435CF200C6B41B /* AppDelegate.m */; };
+		F793820027435CF200C6B41B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F79381FF27435CF200C6B41B /* SceneDelegate.m */; };
+		F793820327435CF200C6B41B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F793820227435CF200C6B41B /* ViewController.m */; };
+		F793820627435CF200C6B41B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F793820427435CF200C6B41B /* Main.storyboard */; };
+		F793820827435CF300C6B41B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F793820727435CF300C6B41B /* Assets.xcassets */; };
+		F793820B27435CF300C6B41B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F793820927435CF300C6B41B /* LaunchScreen.storyboard */; };
+		F793820E27435CF300C6B41B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F793820D27435CF300C6B41B /* main.m */; };
+		F793821627435D8700C6B41B /* BTSelectLevelPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F793821527435D8700C6B41B /* BTSelectLevelPopView.m */; };
+		F793821A27435DAE00C6B41B /* BTSelectLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = F793821927435DAE00C6B41B /* BTSelectLevelView.m */; };
+		F793821D27435DC700C6B41B /* BTSelectLevelTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F793821C27435DC700C6B41B /* BTSelectLevelTableView.m */; };
+		F793822027435DDB00C6B41B /* BTSelectLevelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F793821F27435DDB00C6B41B /* BTSelectLevelTableViewCell.m */; };
+		F793822327435DF100C6B41B /* BTSelectLevelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F793822227435DF100C6B41B /* BTSelectLevelModel.m */; };
+		F793822627435E2A00C6B41B /* BTSelectLevelTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F793822527435E2A00C6B41B /* BTSelectLevelTitleView.m */; };
+		F793822927435E3A00C6B41B /* BTSelctLevelViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F793822827435E3A00C6B41B /* BTSelctLevelViewManager.m */; };
+		F793822C27438BEC00C6B41B /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = F793822B27438BEC00C6B41B /* UIView+CornerRadius.m */; };
+		F793822F2743968B00C6B41B /* UIView+InsideToast.m in Sources */ = {isa = PBXBuildFile; fileRef = F793822E2743968B00C6B41B /* UIView+InsideToast.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CB69D78ACCE8DE345C4DB87 /* Pods-BTLevelPopView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTLevelPopView.debug.xcconfig"; path = "Target Support Files/Pods-BTLevelPopView/Pods-BTLevelPopView.debug.xcconfig"; sourceTree = "<group>"; };
+		CDF38D293D4069380A8790FA /* Pods-BTLevelPopView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTLevelPopView.release.xcconfig"; path = "Target Support Files/Pods-BTLevelPopView/Pods-BTLevelPopView.release.xcconfig"; sourceTree = "<group>"; };
+		E3BC26EE6964B17908FC6703 /* Pods_BTLevelPopView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTLevelPopView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79381F827435CF200C6B41B /* BTLevelPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTLevelPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79381FB27435CF200C6B41B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F79381FC27435CF200C6B41B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F79381FE27435CF200C6B41B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F79381FF27435CF200C6B41B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F793820127435CF200C6B41B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F793820227435CF200C6B41B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F793820527435CF200C6B41B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F793820727435CF300C6B41B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F793820A27435CF300C6B41B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F793820C27435CF300C6B41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F793820D27435CF300C6B41B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F793821427435D8700C6B41B /* BTSelectLevelPopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSelectLevelPopView.h; sourceTree = "<group>"; };
+		F793821527435D8700C6B41B /* BTSelectLevelPopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTSelectLevelPopView.m; sourceTree = "<group>"; };
+		F793821827435DAE00C6B41B /* BTSelectLevelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSelectLevelView.h; sourceTree = "<group>"; };
+		F793821927435DAE00C6B41B /* BTSelectLevelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTSelectLevelView.m; sourceTree = "<group>"; };
+		F793821B27435DC700C6B41B /* BTSelectLevelTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSelectLevelTableView.h; sourceTree = "<group>"; };
+		F793821C27435DC700C6B41B /* BTSelectLevelTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTSelectLevelTableView.m; sourceTree = "<group>"; };
+		F793821E27435DDB00C6B41B /* BTSelectLevelTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSelectLevelTableViewCell.h; sourceTree = "<group>"; };
+		F793821F27435DDB00C6B41B /* BTSelectLevelTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTSelectLevelTableViewCell.m; sourceTree = "<group>"; };
+		F793822127435DF100C6B41B /* BTSelectLevelModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSelectLevelModel.h; sourceTree = "<group>"; };
+		F793822227435DF100C6B41B /* BTSelectLevelModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTSelectLevelModel.m; sourceTree = "<group>"; };
+		F793822427435E2A00C6B41B /* BTSelectLevelTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSelectLevelTitleView.h; sourceTree = "<group>"; };
+		F793822527435E2A00C6B41B /* BTSelectLevelTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTSelectLevelTitleView.m; sourceTree = "<group>"; };
+		F793822727435E3A00C6B41B /* BTSelctLevelViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSelctLevelViewManager.h; sourceTree = "<group>"; };
+		F793822827435E3A00C6B41B /* BTSelctLevelViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTSelctLevelViewManager.m; sourceTree = "<group>"; };
+		F793822A27438BEC00C6B41B /* UIView+CornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadius.h"; sourceTree = "<group>"; };
+		F793822B27438BEC00C6B41B /* UIView+CornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
+		F793822D2743968B00C6B41B /* UIView+InsideToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+InsideToast.h"; sourceTree = "<group>"; };
+		F793822E2743968B00C6B41B /* UIView+InsideToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+InsideToast.m"; sourceTree = "<group>"; };
+		F793823127439CE500C6B41B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F79381F527435CF200C6B41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85965F729060FBDDA0780394 /* Pods_BTLevelPopView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C109208F4A436A174E55B34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3BC26EE6964B17908FC6703 /* Pods_BTLevelPopView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D708A20EF95DF9642CCC9F8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CB69D78ACCE8DE345C4DB87 /* Pods-BTLevelPopView.debug.xcconfig */,
+				CDF38D293D4069380A8790FA /* Pods-BTLevelPopView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F79381EF27435CF200C6B41B = {
+			isa = PBXGroup;
+			children = (
+				F79381FA27435CF200C6B41B /* BTLevelPopView */,
+				F79381F927435CF200C6B41B /* Products */,
+				D708A20EF95DF9642CCC9F8E /* Pods */,
+				4C109208F4A436A174E55B34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F79381F927435CF200C6B41B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F79381F827435CF200C6B41B /* BTLevelPopView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F79381FA27435CF200C6B41B /* BTLevelPopView */ = {
+			isa = PBXGroup;
+			children = (
+				F793821727435D8B00C6B41B /* BTLevelPopView */,
+				F79381FB27435CF200C6B41B /* AppDelegate.h */,
+				F79381FC27435CF200C6B41B /* AppDelegate.m */,
+				F79381FE27435CF200C6B41B /* SceneDelegate.h */,
+				F79381FF27435CF200C6B41B /* SceneDelegate.m */,
+				F793820127435CF200C6B41B /* ViewController.h */,
+				F793820227435CF200C6B41B /* ViewController.m */,
+				F793823127439CE500C6B41B /* PrefixHeader.pch */,
+				F793820427435CF200C6B41B /* Main.storyboard */,
+				F793820727435CF300C6B41B /* Assets.xcassets */,
+				F793820927435CF300C6B41B /* LaunchScreen.storyboard */,
+				F793820C27435CF300C6B41B /* Info.plist */,
+				F793820D27435CF300C6B41B /* main.m */,
+			);
+			path = BTLevelPopView;
+			sourceTree = "<group>";
+		};
+		F793821727435D8B00C6B41B /* BTLevelPopView */ = {
+			isa = PBXGroup;
+			children = (
+				F79382302743977400C6B41B /* tools */,
+				F793821427435D8700C6B41B /* BTSelectLevelPopView.h */,
+				F793821527435D8700C6B41B /* BTSelectLevelPopView.m */,
+				F793821827435DAE00C6B41B /* BTSelectLevelView.h */,
+				F793821927435DAE00C6B41B /* BTSelectLevelView.m */,
+				F793821B27435DC700C6B41B /* BTSelectLevelTableView.h */,
+				F793821C27435DC700C6B41B /* BTSelectLevelTableView.m */,
+				F793821E27435DDB00C6B41B /* BTSelectLevelTableViewCell.h */,
+				F793821F27435DDB00C6B41B /* BTSelectLevelTableViewCell.m */,
+				F793822127435DF100C6B41B /* BTSelectLevelModel.h */,
+				F793822227435DF100C6B41B /* BTSelectLevelModel.m */,
+				F793822427435E2A00C6B41B /* BTSelectLevelTitleView.h */,
+				F793822527435E2A00C6B41B /* BTSelectLevelTitleView.m */,
+				F793822727435E3A00C6B41B /* BTSelctLevelViewManager.h */,
+				F793822827435E3A00C6B41B /* BTSelctLevelViewManager.m */,
+			);
+			path = BTLevelPopView;
+			sourceTree = "<group>";
+		};
+		F79382302743977400C6B41B /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				F793822A27438BEC00C6B41B /* UIView+CornerRadius.h */,
+				F793822B27438BEC00C6B41B /* UIView+CornerRadius.m */,
+				F793822D2743968B00C6B41B /* UIView+InsideToast.h */,
+				F793822E2743968B00C6B41B /* UIView+InsideToast.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F79381F727435CF200C6B41B /* BTLevelPopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F793821127435CF300C6B41B /* Build configuration list for PBXNativeTarget "BTLevelPopView" */;
+			buildPhases = (
+				154A00EB4BF08BC5E149B403 /* [CP] Check Pods Manifest.lock */,
+				F79381F427435CF200C6B41B /* Sources */,
+				F79381F527435CF200C6B41B /* Frameworks */,
+				F79381F627435CF200C6B41B /* Resources */,
+				4CCA4BCB56B17D53FCB3DBF4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTLevelPopView;
+			productName = BTLevelPopView;
+			productReference = F79381F827435CF200C6B41B /* BTLevelPopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F79381F027435CF200C6B41B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F79381F727435CF200C6B41B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = F79381F327435CF200C6B41B /* Build configuration list for PBXProject "BTLevelPopView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F79381EF27435CF200C6B41B;
+			productRefGroup = F79381F927435CF200C6B41B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F79381F727435CF200C6B41B /* BTLevelPopView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F79381F627435CF200C6B41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F793820B27435CF300C6B41B /* LaunchScreen.storyboard in Resources */,
+				F793820827435CF300C6B41B /* Assets.xcassets in Resources */,
+				F793820627435CF200C6B41B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		154A00EB4BF08BC5E149B403 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BTLevelPopView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CCA4BCB56B17D53FCB3DBF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BTLevelPopView/Pods-BTLevelPopView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BTLevelPopView/Pods-BTLevelPopView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BTLevelPopView/Pods-BTLevelPopView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F79381F427435CF200C6B41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F793822627435E2A00C6B41B /* BTSelectLevelTitleView.m in Sources */,
+				F793822C27438BEC00C6B41B /* UIView+CornerRadius.m in Sources */,
+				F793822027435DDB00C6B41B /* BTSelectLevelTableViewCell.m in Sources */,
+				F793820327435CF200C6B41B /* ViewController.m in Sources */,
+				F79381FD27435CF200C6B41B /* AppDelegate.m in Sources */,
+				F793820E27435CF300C6B41B /* main.m in Sources */,
+				F793820027435CF200C6B41B /* SceneDelegate.m in Sources */,
+				F793822327435DF100C6B41B /* BTSelectLevelModel.m in Sources */,
+				F793822F2743968B00C6B41B /* UIView+InsideToast.m in Sources */,
+				F793821627435D8700C6B41B /* BTSelectLevelPopView.m in Sources */,
+				F793821D27435DC700C6B41B /* BTSelectLevelTableView.m in Sources */,
+				F793821A27435DAE00C6B41B /* BTSelectLevelView.m in Sources */,
+				F793822927435E3A00C6B41B /* BTSelctLevelViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F793820427435CF200C6B41B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F793820527435CF200C6B41B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F793820927435CF300C6B41B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F793820A27435CF300C6B41B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F793820F27435CF300C6B41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F793821027435CF300C6B41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F793821227435CF300C6B41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB69D78ACCE8DE345C4DB87 /* Pods-BTLevelPopView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CB48K3MWM2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BTLevelPopView/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BTLevelPopView/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = levelpop;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macrong.levelpop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F793821327435CF300C6B41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF38D293D4069380A8790FA /* Pods-BTLevelPopView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CB48K3MWM2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BTLevelPopView/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BTLevelPopView/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = levelpop;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macrong.levelpop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F79381F327435CF200C6B41B /* Build configuration list for PBXProject "BTLevelPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F793820F27435CF300C6B41B /* Debug */,
+				F793821027435CF300C6B41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F793821127435CF300C6B41B /* Build configuration list for PBXNativeTarget "BTLevelPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F793821227435CF300C6B41B /* Debug */,
+				F793821327435CF300C6B41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F79381F027435CF200C6B41B /* Project object */;
+}
